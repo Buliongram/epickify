@@ -13,8 +13,8 @@ if (
     }
     // Set the location to redirect the page
 
-    header("Location: vote");
-    $_SESSION['error'] = "The password you've entered is incorrect. Please try again.";
+    header("Location: vote.html");
+
     function get_IP_address()
     {
         foreach (array(
